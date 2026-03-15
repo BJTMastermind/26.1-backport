@@ -1,3 +1,5 @@
+<p align="center"><img src="./src/main/resources/icon.png" width=96></p>
+
 <h1><p align="center">26.1 Backport</p></h1>
 
 <p align="center">Backports Minecraft 26.1 features to 1.21.11 minus the baby mob remodels.</p>
