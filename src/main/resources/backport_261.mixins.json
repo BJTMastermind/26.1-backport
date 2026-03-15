@@ -1,0 +1,19 @@
+{
+    "required": true,
+    "package": "me.bjtmastermind.backport_261.mixin",
+    "compatibilityLevel": "JAVA_21",
+    "mixins": [
+        "AgeableMobMixin",
+        "AnimalMixin",
+        "EntityMixin",
+        "MobMixin",
+        "NoteBlockInstrumentMixin",
+        "NoteBlockMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    },
+    "overwrites": {
+        "requireAnnotations": true
+    }
+}

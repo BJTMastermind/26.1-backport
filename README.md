@@ -1,0 +1,52 @@
+<h1><p align="center">26.1 Backport</p></h1>
+
+<p align="center">Backports Minecraft 26.1 features to 1.21.11 minus the baby mob remodels.</p>
+
+<div align="center">
+
+~~*Download on Modrinth*~~ (Coming Soon) |
+[Download from Releases](https://github.com/BJTMastermind/26.1-backport/releases)
+
+</div>
+
+## About The Project
+
+**26.1 Backport** is a small mod that backports some of the 26.1 Drops features to 1.21.11 including the golden dandelion, craftable name tags, stone/deepslate to cobblestone/cobbled deepslate stonecutter recipes, and the trumpet instrument for note blocks!
+
+## Run
+
+1. Download `backport_261-x.x.x+mc1.21.11.jar` from one of the places at the top of this README.
+2. Copy the downloaded jar file to your `mods` folder.
+
+## Getting Started With Development
+
+To get a local copy up and running, follow these simple steps.
+
+### Prerequisites
+
+Ensure you have the following installed on your machine:
+
+* **Java Development Kit (JDK)**: Version 21 or higher.
+  * [Download JDK](https://adoptium.net/)
+* **Gradle**: Version 9.2 or higher.
+  * [Install Gradle](https://gradle.org/install/)
+* **Minecraft**: Version 1.21.11
+
+### Build
+
+1. **Clone the repository**
+```sh
+git clone https://github.com/BJTMastermind/26.1-backport.git
+```
+
+2. Navigate to the project directory
+```sh
+cd 26.1-backport
+```
+
+3. Build the project with Gradle
+```sh
+./gradlew clean build
+```
+
+You can find the built mod at `26.1-backport/build/libs/backport_261-x.x.x+mc1.21.11.jar`.

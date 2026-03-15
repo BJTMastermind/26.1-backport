@@ -1,0 +1,37 @@
+{
+    "schemaVersion": 1,
+    "id": "backport_261",
+    "version": "${version}",
+    "name": "26.1 Backport",
+    "description": "Backports 26.1 features to 1.21.11 minus the baby mob remodels.",
+    "authors": [
+        "BJTMastermind"
+    ],
+    "contact": {
+        "sources": "https://github.com/BJTMastermind/26.1-backport"
+    },
+    "license": "MIT",
+    "icon": "icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "me.bjtmastermind.backport_261.Backport261"
+        ],
+        "client": [
+            "me.bjtmastermind.backport_261.Backport261Client"
+        ]
+    },
+    "mixins": [
+        "backport_261.mixins.json"
+    ],
+    "accessWidener": "backport_261.accesswidener",
+    "depends": {
+        "fabricloader": ">=0.18.4",
+        "minecraft": "~1.21.11",
+        "java": ">=21",
+        "fabric-api": "*"
+    },
+    "suggests": {
+        "another-mod": "*"
+    }
+}

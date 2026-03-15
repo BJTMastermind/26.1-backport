@@ -1,0 +1,38 @@
+{
+    "item.golden_dandelion.use": {
+        "subtitle": "subtitles.item.golden_dandelion.use",
+        "sounds": [
+            "backport_261:golden_dandelion/use"
+        ]
+    },
+    "item.golden_dandelion.unuse": {
+        "subtitle": "subtitles.item.golden_dandelion.unuse",
+        "sounds": [
+            "backport_261:golden_dandelion/unuse"
+        ]
+    },
+    "block.note_block.trumpet": {
+        "subtitle": "subtitles.block.note_block.note",
+        "sounds": [
+            "backport_261:note/trumpet"
+        ]
+    },
+    "block.note_block.trumpet_exposed": {
+        "subtitle": "subtitles.block.note_block.note",
+        "sounds": [
+            "backport_261:note/trumpet_exposed"
+        ]
+    },
+    "block.note_block.trumpet_weathered": {
+        "subtitle": "subtitles.block.note_block.note",
+        "sounds": [
+            "backport_261:note/trumpet_weathered"
+        ]
+    },
+    "block.note_block.trumpet_oxidized": {
+        "subtitle": "subtitles.block.note_block.note",
+        "sounds": [
+            "backport_261:note/trumpet_oxidized"
+        ]
+    }
+}
