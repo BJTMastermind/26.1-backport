@@ -6,7 +6,7 @@
 
 <div align="center">
 
-~~*Download on Modrinth*~~ (Coming Soon) |
+[Download on Modrinth](https://modrinth.com/mod/26.1-backport/versions) |
 [Download from Releases](https://github.com/BJTMastermind/26.1-backport/releases)
 
 </div>
