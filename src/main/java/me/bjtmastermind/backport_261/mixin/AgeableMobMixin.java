@@ -15,7 +15,7 @@ import me.bjtmastermind.backport_261.interfaces.EntityAccess;
 import me.bjtmastermind.backport_261.interfaces.MobAccess;
 import me.bjtmastermind.backport_261.particle.ModParticles;
 import me.bjtmastermind.backport_261.sound_events.ModSoundEvents;
-import me.bjtmastermind.backport_261.tags.ModTags;
+import me.bjtmastermind.backport_261.tags.ModEntityTypeTags;
 import net.minecraft.network.syncher.EntityDataAccessor;
 import net.minecraft.network.syncher.EntityDataSerializers;
 import net.minecraft.network.syncher.SynchedEntityData;
@@ -55,7 +55,7 @@ public abstract class AgeableMobMixin implements AgeableMobAccess {
     }
 
     private static boolean canUseGoldenDandelion(final ItemStack itemInHand, final boolean isBaby, final int cooldown, final Mob mob) {
-        return itemInHand.getItem() == ModBlocks.GOLDEN_DANDELION.asItem() && isBaby && cooldown == 0 && !((EntityAccess)mob).is(ModTags.CANNOT_BE_AGE_LOCKED);
+        return itemInHand.getItem() == ModBlocks.GOLDEN_DANDELION.asItem() && isBaby && cooldown == 0 && !((EntityAccess)mob).is(ModEntityTypeTags.CANNOT_BE_AGE_LOCKED);
     }
 
     private void setAgeLockedData() {

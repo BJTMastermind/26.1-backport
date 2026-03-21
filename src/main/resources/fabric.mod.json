@@ -19,6 +19,9 @@
         ],
         "client": [
             "me.bjtmastermind.backport_261.Backport261Client"
+        ],
+        "fabric-datagen": [
+            "me.bjtmastermind.backport_261.Backport261DataGenerator"
         ]
     },
     "mixins": [
