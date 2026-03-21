@@ -9,6 +9,7 @@ import me.bjtmastermind.backport_261.block.ModBlocks;
 import me.bjtmastermind.backport_261.particle.ModParticles;
 import me.bjtmastermind.backport_261.sound_events.ModSoundEvents;
 import me.bjtmastermind.backport_261.tags.ModTags;
+import me.bjtmastermind.backport_261.util.ModLootTableModifiers;
 import me.bjtmastermind.backport_261.villager.ModTrades;
 
 public class Backport261 implements ModInitializer {
@@ -25,5 +26,6 @@ public class Backport261 implements ModInitializer {
         ModTags.registerModTags();
 
         ModTrades.registerModTrades();
+        ModLootTableModifiers.modifyLootTables();
     }
 }
