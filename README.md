@@ -15,6 +15,9 @@
 
 **26.1 Backport** is a small mod that backports some of the 26.1 Drops features to 1.21.11 including the golden dandelion, craftable name tags, stone/deepslate to cobblestone/cobbled deepslate stonecutter recipes, and the trumpet instrument for note blocks!
 
+> [!caution]
+> The **26.1** version of the mod is required to correctly migrate the mods backported golden dandelion to the vanilla equivalent. Once all chunks containing golden dandelions (blocks, items, in containers, etc) have been loaded in 26.1 or the "Optimize World" button is used (Singleplayer Only) you can safely remove the mod.
+
 ## Run
 
 1. Download `backport_261-x.x.x+mc1.21.11.jar` from one of the places at the top of this README.

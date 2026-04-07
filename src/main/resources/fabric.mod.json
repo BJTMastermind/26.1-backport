@@ -8,7 +8,8 @@
         "BJTMastermind"
     ],
     "contact": {
-        "sources": "https://github.com/BJTMastermind/26.1-backport"
+        "sources": "https://github.com/BJTMastermind/26.1-backport",
+        "issues": "https://github.com/BJTMastermind/26.1-backport/issues"
     },
     "license": "MIT",
     "icon": "icon.png",
