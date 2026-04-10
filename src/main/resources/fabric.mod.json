@@ -8,30 +8,22 @@
         "BJTMastermind"
     ],
     "contact": {
-        "sources": "https://github.com/BJTMastermind/26.1-backport"
+        "sources": "https://github.com/BJTMastermind/26.1-backport",
+        "issues": "https://github.com/BJTMastermind/26.1-backport/issues"
     },
     "license": "MIT",
     "icon": "icon.png",
     "environment": "*",
     "entrypoints": {
-        "main": [
+        "preLaunch": [
             "me.bjtmastermind.backport_261.Backport261"
-        ],
-        "client": [
-            "me.bjtmastermind.backport_261.Backport261Client"
-        ],
-        "fabric-datagen": [
-            "me.bjtmastermind.backport_261.Backport261DataGenerator"
         ]
     },
-    "mixins": [
-        "backport_261.mixins.json"
-    ],
-    "accessWidener": "backport_261.accesswidener",
+    "mixins": [],
     "depends": {
         "fabricloader": ">=0.18.4",
-        "minecraft": "~1.21.11",
-        "java": ">=21",
+        "minecraft": "~26.1",
+        "java": ">=25",
         "fabric-api": "*"
     },
     "suggests": {
