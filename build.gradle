@@ -1,5 +1,5 @@
 plugins {
-    id 'fabric-loom' version "${loom_version}"
+    id 'net.fabricmc.fabric-loom' version "${loom_version}"
     id 'maven-publish'
 }
 
@@ -16,26 +16,20 @@ repositories {
     // Loom adds the essential maven repositories to download Minecraft and libraries from automatically.
     // See https://docs.gradle.org/current/userguide/declaring_repositories.html
     // for more information about repositories.
-}
-
-loom {
-    accessWidenerPath = file("src/main/resources/${project.mod_id}.accesswidener")
+    flatDir {
+        dirs("lib")
+    }
 }
 
 dependencies {
     // To change the versions see the gradle.properties file
     minecraft "com.mojang:minecraft:${project.minecraft_version}"
-    mappings loom.officialMojangMappings()
-    modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
+    implementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
     // Fabric API. This is technically optional, but you probably want it anyway.
-    modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
-}
-
-fabricApi {
-    configureDataGeneration() {
-        client = true
-    }
+    implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
+    implementation ":easy_data_fix:fabric:1.1.0+mc26.1"
+    // implementation "com.github.BJTMastermind:easy_data_fix:47d4b20b3b"
 }
 
 processResources {

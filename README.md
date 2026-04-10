@@ -20,7 +20,7 @@
 
 ## Run
 
-1. Download `backport_261-x.x.x+mc1.21.11.jar` from one of the places at the top of this README.
+1. Download `backport_261-x.x.x+mc26.1.jar` from one of the places at the top of this README.
 2. Copy the downloaded jar file to your `mods` folder.
 
 ## Getting Started With Development
@@ -31,11 +31,11 @@ To get a local copy up and running, follow these simple steps.
 
 Ensure you have the following installed on your machine:
 
-* **Java Development Kit (JDK)**: Version 21 or higher.
+* **Java Development Kit (JDK)**: Version 25 or higher.
   * [Download JDK](https://adoptium.net/)
 * **Gradle**: Version 9.2 or higher.
   * [Install Gradle](https://gradle.org/install/)
-* **Minecraft**: Version 1.21.11
+* **Minecraft**: Version 26.1
 
 ### Build
 
@@ -54,4 +54,4 @@ cd 26.1-backport
 ./gradlew clean build
 ```
 
-You can find the built mod at `26.1-backport/build/libs/backport_261-x.x.x+mc1.21.11.jar`.
+You can find the built mod at `26.1-backport/build/libs/backport_261-x.x.x+mc26.1.jar`.
