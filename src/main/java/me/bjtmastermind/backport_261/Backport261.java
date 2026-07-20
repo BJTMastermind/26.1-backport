@@ -5,8 +5,8 @@ import org.slf4j.LoggerFactory;
 
 import com.mojang.datafixers.schemas.Schema;
 
-import me.bjtmastermind.easy_data_fix.api.DataFixerAPI;
-import me.bjtmastermind.easy_data_fix.api.DataFixerRegistry;
+import me.voxelbill.easy_data_fix.common.api.DataFixerAPI;
+import me.voxelbill.easy_data_fix.common.api.DataFixerRegistry;
 import net.fabricmc.loader.api.entrypoint.PreLaunchEntrypoint;
 import net.minecraft.util.datafix.fixes.BlockRenameFix;
 import net.minecraft.util.datafix.fixes.ItemRenameFix;

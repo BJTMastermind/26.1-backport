@@ -17,7 +17,10 @@ repositories {
     // See https://docs.gradle.org/current/userguide/declaring_repositories.html
     // for more information about repositories.
     mavenCentral()
-    maven { url 'https://jitpack.io' }
+    maven {
+        name = "Modrinth"
+        url = "https://api.modrinth.com/maven"
+    }
 }
 
 dependencies {
@@ -27,7 +30,7 @@ dependencies {
 
     // Fabric API. This is technically optional, but you probably want it anyway.
     implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
-    implementation "com.github.BJTMastermind:easy-data-fix:1.1.0-mc26.1-fabric"
+    implementation "maven.modrinth:easy-data-fix:1.2.0+mc26.1-fabric"
 }
 
 processResources {
