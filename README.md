@@ -1,4 +1,8 @@
-<p align="center"><img src="./src/main/resources/icon.png" width=96></p>
+> [!note]
+> This project has been migrated to Codeberg and will no longer be updated here.<br>
+> Visit the projects Codeberg repository at: https://codeberg.org/VoxelBill/26.1-backport
+
+<p align="center"><img src="./icon.png" width=96></p>
 
 <h1><p align="center">26.1 Backport</p></h1>
 
@@ -7,7 +11,7 @@
 <div align="center">
 
 [Download on Modrinth](https://modrinth.com/mod/26.1-backport/versions) |
-[Download from Releases](https://github.com/BJTMastermind/26.1-backport/releases)
+[Download from Releases](https://github.com/VoxelBill/26.1-backport/releases)
 
 </div>
 
@@ -41,7 +45,7 @@ Ensure you have the following installed on your machine:
 
 1. **Clone the repository**
 ```sh
-git clone https://github.com/BJTMastermind/26.1-backport.git
+git clone https://github.com/VoxelBill/26.1-backport.git
 ```
 
 2. Navigate to the project directory
